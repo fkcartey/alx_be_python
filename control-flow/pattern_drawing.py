@@ -1,16 +1,16 @@
-# Prompt user for the size of the pattern
+# Prompt the user for the pattern size
 size = int(input("Enter the size of the pattern: "))
 
-# Initialize row counter for the while loop
+# Initialize the row counter
 row = 0
 
 # Use a while loop to iterate through each row
 while row < size:
-    # Use a for loop to print asterisks side by side
+    # Use a for loop to print asterisks in the current row
     for _ in range(size):
         print("*", end="")
     
-    # Print a newline character to move to the next row
+    # Print a newline to move to the next row
     print()
     
     # Increment the row counter
